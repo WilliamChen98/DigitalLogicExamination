@@ -1,0 +1,30 @@
+module scaner(clk,outs);
+	input clk;
+	output reg [7:0] outs;
+	reg [2:0] state;
+	always @ (posedge clk)
+		case(state)
+			4'd0: state <= 1;
+			4'd1: state <= 2;
+			4'd2: state <= 3;
+			4'd3: state <= 4;
+			4'd4: state <= 5;
+			4'd5: state <= 6;
+			4'd6: state <= 7;
+			4'd7: state <= 0;
+			default:state <= 0;
+		endcase
+	
+	always @ (posedge clk)
+		case(state)
+			4'd0: outs = 8'd'1;
+			4'd1: outs = 8'd'2;
+			4'd2: outs = 8'd'4;
+			4'd3: outs = 8'd'8;
+			4'd4: outs = 8'd'16;
+			4'd5: outs = 8'd'32;
+			4'd6: outs = 8'd'64;
+			4'd7: outs = 8'd'128;
+			default:outs = 8'd0;
+		endcase
+endmodule

@@ -1,0 +1,11 @@
+module Counter_2421_16071005(clk,Q,z);
+	input clk;
+	output reg [3:0]Q;
+	output reg z;
+	always @ (posedge clk)begin
+		if(Q == 4'b1111)begin
+			z <= 1'd1;
+		end
+		case(Q)
+		4'b0000: Q <= 4'b0001;
+		4'b0001: Q <= 4'b0010;

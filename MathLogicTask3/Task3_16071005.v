@@ -1,0 +1,41 @@
+module Task3_16071005(clk,reset,load,din,count);
+	input clk,reset,load;
+	input [2:0]din;
+	output reg[2:0]count;
+	reg [3:0]state;
+	always @ (posedge clk)begin
+		if(reset)begin
+			state <= 4'd8;
+		end
+		else if(load)begin
+			state <= din;
+		end
+		else begin
+			case(state)
+				4'd0:state <= 4'd7;
+				4'd1:state <= 4'd0;
+				4'd2:state <= 4'd1;
+				4'd3:state <= 4'd2;
+				4'd4:state <= 4'd3;
+				4'd5:state <= 4'd4;
+				4'd6:state <= 4'd5;
+				4'd7:state <= 4'd6;
+				4'd8:state <= 4'd8;
+				default:state <= 4'd8;
+			endcase
+		end
+	end
+	always @ (state)
+		case(state)
+			4'd0:count = 3'd0;
+			4'd1:count = 3'd1;
+			4'd2:count = 3'd2;
+			4'd3:count = 3'd3;
+			4'd4:count = 3'd4;
+			4'd5:count = 3'd5;
+			4'd6:count = 3'd6;
+			4'd7:count = 3'd7;
+			4'd8:count = 3'd0;
+			default:count = 3'd0;
+		endcase
+endmodule

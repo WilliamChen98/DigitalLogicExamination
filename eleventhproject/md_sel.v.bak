@@ -1,0 +1,8 @@
+module md_sel(inmd,outmd);
+	input[3:0]inmd;
+	output reg[1:0]outmd;
+	always @ (inmd)
+		case(inmd)
+			4'd10:outmd = 2'd10;
+			4'd11:outmd = 2'd00;
+			default:outmd = 2'd11;

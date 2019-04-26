@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at mux_8.v(7): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at xl_generate.v(6): always construct contains both blocking and non-blocking assignments

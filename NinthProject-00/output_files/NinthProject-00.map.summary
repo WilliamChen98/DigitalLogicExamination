@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec 27 19:35:15 2017
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : NinthProject-00
+Top-level Entity Name : NinthProject_00
+Family : Cyclone III
+Total logic elements : 141
+    Total combinational functions : 141
+    Dedicated logic registers : 88
+Total registers : 88
+Total pins : 30
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

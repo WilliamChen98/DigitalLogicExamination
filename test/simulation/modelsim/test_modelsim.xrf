@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, E:/testofquartus/test/check.v
+source_file = 1, E:/testofquartus/test/Waveform.vwf
+source_file = 1, E:/testofquartus/test/db/test.cbx.xml
+design_name = check
+instance = comp, \inb[0]~input , inb[0]~input, check, 1
+instance = comp, \ina[0]~input , ina[0]~input, check, 1
+instance = comp, \out~output , out~output, check, 1
+instance = comp, \ina[1]~input , ina[1]~input, check, 1
+instance = comp, \ina[2]~input , ina[2]~input, check, 1
+instance = comp, \ina[3]~input , ina[3]~input, check, 1
+instance = comp, \out~0 , out~0, check, 1
+instance = comp, \inb[2]~input , inb[2]~input, check, 1
+instance = comp, \inb[1]~input , inb[1]~input, check, 1
+instance = comp, \inb[3]~input , inb[3]~input, check, 1
+instance = comp, \WideOr1~0 , WideOr1~0, check, 1
+instance = comp, \out~1 , out~1, check, 1

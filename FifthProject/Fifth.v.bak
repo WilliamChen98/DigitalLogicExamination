@@ -1,0 +1,52 @@
+module Fifth(clk,reset,out);
+	input clk,reset;
+	output [4:0] out;
+	reg [4:0] out,state;
+	parameter S0 = 0,S1 = 1,S2 = 2,S3 = 3,S4 = 4,S5 = 5,S6 = 6,S7 = 7,S8 = 8,S9 = 9,S10 = 10,S11 = 11,S12 = 12,S13 = 13,S14 = 14,S15 = 15;
+		always @ (state) begin
+			case(state)
+				S0: out = 4'd0;
+				S1: out = 4'd1;
+				S2: out = 4'd2;
+				S3: out = 4'd3;
+				S4: out = 4'd4;
+				S5: out = 4'd5;
+				S6: out = 4'd6;
+				S7: out = 4'd7;
+				S8: out = 4'd8;
+				S9: out = 4'd9;
+				S10: out = 4'd10;
+				S11: out = 4'd11;
+				S12: out = 4'd12;
+				S13: out = 4'd13;
+				S14: out = 4'd14;
+				S15: out = 4'd15;
+				default: out = 4'd0;
+			endcase
+		end
+		//change to the next state
+		always @ (posedge clk or posedge reset) begin
+			if(reset)
+				state <= S0;
+			else
+				case(state)
+					S0: state <= S1;
+					S1: state <= S2;
+					S2: state <= S3;
+					S3: state <= S4;
+					S4: state <= S5;
+					S5: state <= S6;
+					S6: state <= S7;
+					S7: state <= S8;
+					S8: state <= S9;
+					S9: state <= S10;
+					S10: state <= S11;
+					S11: state <= S12;
+					S12: state <= S13;
+					S13: state <= S14;
+					S14: state <= S15;
+					S15: state <= S0;
+					default: state <= S0;
+				endcase
+		end
+endmodule

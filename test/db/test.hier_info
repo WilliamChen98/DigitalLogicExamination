@@ -1,0 +1,12 @@
+|check
+ina[0] => WideOr0.IN0
+ina[1] => WideOr0.IN1
+ina[2] => WideOr0.IN2
+ina[3] => WideOr0.IN3
+inb[0] => WideOr1.IN0
+inb[1] => WideOr1.IN1
+inb[2] => WideOr1.IN2
+inb[3] => WideOr1.IN3
+out <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+

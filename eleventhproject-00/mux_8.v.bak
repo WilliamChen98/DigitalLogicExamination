@@ -1,0 +1,17 @@
+module mux_8(in0,in1,in2,in3,in4,in5,in6,in7,selm,outm);
+	input [3:0] in0,in1,in2,in3,in4,in5,in6,in7;
+	input [2:0] selm;
+	output reg[3:0] outm;
+	always @ (in0 or in1 or in2 or in3 or in4 or in5 or in6 or in7 or selm)
+		case(selm)
+			3'd0:outm <= in0;
+			3'd1:outm <= in1;
+			3'd2:outm <= in2;
+			3'd3:outm <= in3;
+			3'd4:outm <= in4;
+			3'd5:outm <= in5;
+			3'd6:outm <= in6;
+			3'd7:outm <= in7;
+			default:outm <= outm;
+		endcase
+endmodule

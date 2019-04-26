@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\testofquartus\simulation\qsim
+vfrequency_divider
+Z1 !s100 6cYL;7O<ONdD@RM]C=GOC0
+Z2 I=]2HeL6FB;M`<S[ElR=^=1
+Z3 VU^=o4`>SJSe2X6gm6cN2U3
+Z4 dE:\testofquartus\simulation\qsim
+Z5 w1510751585
+Z6 8SeventhProject.vo
+Z7 FSeventhProject.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|SeventhProject.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1510751587.728000
+Z12 !s107 SeventhProject.vo|
+!s101 -O0
+vfrequency_divider_vlg_check_tst
+!i10b 1
+Z13 !s100 OCNUC[]3=ZcEUCM7bI?[81
+Z14 IOz`?C0hEn4eeCmRS90bZc3
+Z15 V^VkTTFgN^Ukm9CdQg_M_D3
+R4
+Z16 w1510751584
+Z17 8SeventhProject.vt
+Z18 FSeventhProject.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1510751587.947000
+Z20 !s107 SeventhProject.vt|
+Z21 !s90 -work|work|SeventhProject.vt|
+!s101 -O0
+R10
+vfrequency_divider_vlg_sample_tst
+!i10b 1
+Z22 !s100 AP]G7B1Ozj>=W6m9W>[Re2
+Z23 I><H2?e;HzzYbgWDojaO4D2
+Z24 VQDTgcG`VL::EQ[ckS7DPX0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vfrequency_divider_vlg_vec_tst
+!i10b 1
+Z25 !s100 _GnAQHPKQB3OklC9^[Y[P0
+Z26 I5Me5?N3QI@Ul]8lYiU=l;3
+Z27 V[YC]6l^Em9J3W1<=;=j?I3
+R4
+R16
+R17
+R18
+Z28 L0 239
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\testofquartus\MathLogicTask3\simulation\qsim
+vCounter_2421_16071005
+Z1 Iz2aiE^8J6j>R8NX4:LW?12
+Z2 V;S2^CeDM>Eg:TB;XQX>@;0
+Z3 dE:\testofquartus\MathLogicTask3\simulation\qsim
+Z4 w1512563516
+Z5 8Task3.vo
+Z6 FTask3.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Task3.vo|
+Z9 o-work work -O0
+Z10 n@counter_2421_16071005
+!i10b 1
+Z11 !s100 CL=bRYCRA^CD_K6ORoBA>1
+!s85 0
+Z12 !s108 1512563517.756000
+Z13 !s107 Task3.vo|
+!s101 -O0
+vCounter_2421_16071005_vlg_check_tst
+!i10b 1
+!s100 o@z5=lf9]R@Eh:<1`Jgjh0
+IjQM^CIBLPK76hiV>F9UX?3
+VRP[V=8OjW<0b^^LdjkS`@0
+R3
+R4
+Z14 8Task3.vt
+Z15 FTask3.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1512563517.881000
+Z17 !s107 Task3.vt|
+Z18 !s90 -work|work|Task3.vt|
+!s101 -O0
+R9
+n@counter_2421_16071005_vlg_check_tst
+vCounter_2421_16071005_vlg_sample_tst
+!i10b 1
+!s100 f;37H_TcfFb3HXfngKIF=2
+IM926[jcOA2FFT>V^>hBKV0
+V2C092d6[1eKQn;VmLTiY>1
+R3
+R4
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+n@counter_2421_16071005_vlg_sample_tst
+vCounter_2421_16071005_vlg_vec_tst
+!i10b 1
+!s100 geo<APIDUkK19OP5bV1Bc0
+InR]<YSV>_i0RBnc4hJ5Ai3
+VzGzZnk^6XI;c?TEgVM;Ld3
+R3
+R4
+R14
+R15
+L0 232
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R9
+n@counter_2421_16071005_vlg_vec_tst
+vTask3_16071005
+Z19 Ibf1]ZHkBJzZ6_djeH?2100
+Z20 V7UQgFAP=kWU>f13gP2aQY1
+R3
+Z21 w1512548753
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z22 n@task3_16071005
+Z23 !s100 chNPD=@f6bYgk_0QY4O7o3
+Z24 !s108 1512548755.703000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vTask3_16071005_vlg_check_tst
+Z25 !s100 BeHR;3`[Ih5Ung?0V3ago1
+Z26 I6;UcR4GVlz@oIFWHCAgS90
+Z27 VR;<1SOC=PhGORmP^2QVe42
+R3
+Z28 w1512548752
+R14
+R15
+L0 63
+R7
+r1
+31
+Z29 !s108 1512548755.894000
+Z30 !s107 Task3.vt|
+R18
+R9
+Z31 n@task3_16071005_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vTask3_16071005_vlg_sample_tst
+Z32 !s100 2>BT<lXL?]N<_Rif82K;b2
+Z33 Id[f`YT6T3V`dbJ^T>@j[B0
+Z34 VgKCR]Ke217:A`E?Un@`bO3
+R3
+R28
+R14
+R15
+L0 29
+R7
+r1
+31
+R29
+R30
+R18
+R9
+Z35 n@task3_16071005_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vTask3_16071005_vlg_vec_tst
+Z36 !s100 Tfn6E6Vj]:L[4GGbb=YKB2
+Z37 I?8Hja`b2TkUR:Y>dUN0zz3
+Z38 VeR_i4]7[P^KPPAk]Q]O?b1
+R3
+R28
+R14
+R15
+Z39 L0 196
+R7
+r1
+31
+R29
+R30
+R18
+R9
+Z40 n@task3_16071005_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
